@@ -1,0 +1,41 @@
+[
+  {
+    "model": "blog.blogarticle",
+    "pk": 1,
+    "fields": {
+      "title": "Приветствие",
+      "slug": "privetstvie",
+      "body": "Hello",
+      "preview": "products/photo/s12001.jpg",
+      "created_at": "2024-07-08T10:51:49.042Z",
+      "is_published": true,
+      "views_count": 9
+    }
+  },
+  {
+    "model": "blog.blogarticle",
+    "pk": 2,
+    "fields": {
+      "title": "Сервис рассылок",
+      "slug": "servis-rassyilok",
+      "body": "Наш сервис позволяет создавать автоматические рассылки",
+      "preview": "products/photo/images.jfif",
+      "created_at": "2024-07-29T09:22:42.351Z",
+      "is_published": true,
+      "views_count": 2
+    }
+  },
+  {
+    "model": "blog.blogarticle",
+    "pk": 3,
+    "fields": {
+      "title": "Инструкция",
+      "slug": "instruktsiya",
+      "body": "Добавьте своих клиентов.\r\nСоздайте рассылку, заполнив необходимые поля.\r\nНапишите сообщение и выберите Вашу рассылку.",
+      "preview": "products/photo/delovoe_pismo_chto_eto_takoe_i_kak_ego_pravilno_napisat.jpg",
+      "created_at": "2024-07-29T13:41:45.367Z",
+      "is_published": true,
+      "views_count": 0
+    }
+  }
+]
