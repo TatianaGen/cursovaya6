@@ -1,0 +1,601 @@
+[
+  {
+    "model": "mailing.client",
+    "pk": 1,
+    "fields": {
+      "name": "Татьяна Галицкая",
+      "email": "ejik27@mail.ru",
+      "comment": "Татьяна",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 2,
+    "fields": {
+      "name": "Татьяна",
+      "email": "gal2785@gmail.com",
+      "comment": "Новый",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 3,
+    "fields": {
+      "name": "Татьяна",
+      "email": "gal27852785@yandex.ru",
+      "comment": "",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 4,
+    "fields": {
+      "name": "Тест",
+      "email": "soer27@mail.ru",
+      "comment": "Тест",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 5,
+    "fields": {
+      "name": "Софья",
+      "email": "homachok1908@mail.ru",
+      "comment": "",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 6,
+    "fields": {
+      "name": "Софья",
+      "email": "ejik27@sky.pro",
+      "comment": "",
+      "owner": null
+    }
+  },
+  {
+    "model": "mailing.client",
+    "pk": 7,
+    "fields": {
+      "name": "Тест",
+      "email": "test@sky.pro",
+      "comment": "",
+      "owner": 3
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 9,
+    "fields": {
+      "title": "Приветствие",
+      "message": "Hello!",
+      "owner": 1
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 10,
+    "fields": {
+      "title": "Тест",
+      "message": "Тест",
+      "owner": 6
+    }
+  },
+  {
+    "model": "mailing.message",
+    "pk": 11,
+    "fields": {
+      "title": "Новый тест",
+      "message": "Новый тест",
+      "owner": 1
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 23,
+    "fields": {
+      "name": "Новый тест",
+      "description": "",
+      "status": "Запущена",
+      "periodicity": "Раз в день",
+      "start_date": "2024-07-02T18:48:00Z",
+      "end_date": null,
+      "next_send_time": "2024-08-03T18:48:00Z",
+      "message": 11,
+      "owner": 1,
+      "clients": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 24,
+    "fields": {
+      "name": "Тест",
+      "description": "",
+      "status": "Запущена",
+      "periodicity": "Раз в день",
+      "start_date": "2024-08-02T19:18:02Z",
+      "end_date": null,
+      "next_send_time": "2024-08-03T19:18:02Z",
+      "message": 10,
+      "owner": null,
+      "clients": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 25,
+    "fields": {
+      "name": "Тест1",
+      "description": "Тест1",
+      "status": "Запущена",
+      "periodicity": "Раз в день",
+      "start_date": "2024-07-02T18:20:00Z",
+      "end_date": null,
+      "next_send_time": "2024-08-03T18:20:00Z",
+      "message": 9,
+      "owner": 1,
+      "clients": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 26,
+    "fields": {
+      "name": "Тест2",
+      "description": "",
+      "status": "Запущена",
+      "periodicity": "Раз в день",
+      "start_date": "2024-07-02T20:00:00Z",
+      "end_date": null,
+      "next_send_time": "2024-08-03T20:00:00Z",
+      "message": 10,
+      "owner": 1,
+      "clients": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 29,
+    "fields": {
+      "name": "Тест3",
+      "description": "",
+      "status": "Запущена",
+      "periodicity": "Раз в день",
+      "start_date": "2024-07-02T20:00:00Z",
+      "end_date": null,
+      "next_send_time": "2024-08-03T20:00:00Z",
+      "message": 11,
+      "owner": 1,
+      "clients": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 35,
+    "fields": {
+      "name": "Тест4",
+      "description": "",
+      "status": "Запущена",
+      "periodicity": "Раз в день",
+      "start_date": "2024-08-02T17:00:00Z",
+      "end_date": null,
+      "next_send_time": "2024-08-03T20:00:00Z",
+      "message": 11,
+      "owner": 1,
+      "clients": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 36,
+    "fields": {
+      "name": "Тест5",
+      "description": "",
+      "status": "Запущена",
+      "periodicity": "Раз в день",
+      "start_date": "2024-08-02T20:00:00Z",
+      "end_date": null,
+      "next_send_time": "2024-08-03T20:00:00Z",
+      "message": 10,
+      "owner": 1,
+      "clients": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 37,
+    "fields": {
+      "name": "Тест6",
+      "description": "",
+      "status": "Запущена",
+      "periodicity": "Раз в день",
+      "start_date": "2024-08-02T18:20:00Z",
+      "end_date": null,
+      "next_send_time": "2024-08-03T18:20:00Z",
+      "message": 9,
+      "owner": 1,
+      "clients": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing.mailing",
+    "pk": 40,
+    "fields": {
+      "name": "Тест7",
+      "description": "",
+      "status": "Запущена",
+      "periodicity": "Раз в день",
+      "start_date": "2024-08-02T21:06:46Z",
+      "end_date": null,
+      "next_send_time": "2024-08-03T21:06:50Z",
+      "message": 9,
+      "owner": 1,
+      "clients": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 550,
+    "fields": {
+      "time": "2024-08-02T19:18:08.342Z",
+      "status": "Неуспешно",
+      "server_response": "(554, b'5.7.1 Message rejected under suspicion of SPAM; https://ya.cc/1IrBc 1719947887-7Ic5o86Xn4Y0-uOGYIEx1')",
+      "mailing": 23
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 551,
+    "fields": {
+      "time": "2024-08-02T19:18:18.385Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 24
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 552,
+    "fields": {
+      "time": "2024-08-02T19:22:18.533Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 553,
+    "fields": {
+      "time": "2024-08-02T19:22:21.022Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 554,
+    "fields": {
+      "time": "2024-08-02T19:22:28.535Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 555,
+    "fields": {
+      "time": "2024-07-02T19:22:31.803Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 556,
+    "fields": {
+      "time": "2024-07-02T19:22:38.665Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 557,
+    "fields": {
+      "time": "2024-07-02T19:22:40.977Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 558,
+    "fields": {
+      "time": "2024-07-02T19:22:50.687Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 559,
+    "fields": {
+      "time": "2024-07-02T19:22:50.966Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 560,
+    "fields": {
+      "time": "2024-07-02T19:22:59.844Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 561,
+    "fields": {
+      "time": "2024-07-02T19:23:01.019Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 562,
+    "fields": {
+      "time": "2024-07-02T19:41:44.290Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 563,
+    "fields": {
+      "time": "2024-07-02T19:41:44.291Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 564,
+    "fields": {
+      "time": "2024-07-02T19:41:51.158Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 565,
+    "fields": {
+      "time": "2024-07-02T19:41:52.712Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 566,
+    "fields": {
+      "time": "2024-07-02T19:42:01.124Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 567,
+    "fields": {
+      "time": "2024-07-02T19:42:03.085Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 568,
+    "fields": {
+      "time": "2024-07-02T19:42:11.238Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 569,
+    "fields": {
+      "time": "2024-07-02T19:42:12.746Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 570,
+    "fields": {
+      "time": "2024-07-02T19:42:21.270Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 571,
+    "fields": {
+      "time": "2024-07-02T19:42:22.846Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 572,
+    "fields": {
+      "time": "2024-07-02T19:42:31.766Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 573,
+    "fields": {
+      "time": "2024-07-02T19:42:32.692Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 574,
+    "fields": {
+      "time": "2024-07-02T19:42:41.695Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 575,
+    "fields": {
+      "time": "2024-07-02T19:42:44.010Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 576,
+    "fields": {
+      "time": "2024-07-02T19:42:51.312Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 577,
+    "fields": {
+      "time": "2024-07-02T19:42:52.733Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 578,
+    "fields": {
+      "time": "2024-07-02T19:43:02.176Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 579,
+    "fields": {
+      "time": "2024-07-02T19:43:02.922Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 580,
+    "fields": {
+      "time": "2024-07-02T19:43:11.398Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 581,
+    "fields": {
+      "time": "2024-07-02T19:43:12.656Z",
+      "status": "Успешно",
+      "server_response": "1",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 582,
+    "fields": {
+      "time": "2024-07-02T20:01:42.894Z",
+      "status": "Неуспешно",
+      "server_response": "(554, b'5.7.1 Message rejected under suspicion of SPAM; https://ya.cc/1IrBc 1719950502-f1dYii2uEeA0-IjgSFvp0')",
+      "mailing": 25
+    }
+  },
+  {
+    "model": "mailing.log",
+    "pk": 583,
+    "fields": {
+      "time": "2024-07-02T20:01:43.858Z",
+      "status": "Неуспешно",
+      "server_response": "(554, b'5.7.1 Message rejected under suspicion of SPAM; https://ya.cc/1IrBc 1719950503-g1dN5D6MgW20-j8EQRip7')",
+      "mailing": 26
+    }
+  }
+]
